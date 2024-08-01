@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overseer Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="headin">
+            <img src="img/logo.png" alt="logo">
+            <h1>Overseer</h1>
+            <h5>Finance</h5>
+            <div class="parted">
+                <a href="index1.html"><h2 class="lin">Home<img src="img/home.png"></h2></a>
+                <div class="verti"></div>
+                <a href="profile.html"><h2 class="lin">Profile<img src="img/profile.png"></h2></a>
+                <div class="verti"></div>
+                <a href="chat.html"><h2 class="lin">Chat<img src="img/chat.png"></h2></a>
+            </div>
+            <div id="profile">
+                <div class="clust">
+                    <button type="button" class="lg" id="loginBtn"><p>Login</p></button>
+                    <a href="member.html"><p class="mem">No Member</p></a>
+                </div>
+                
+                <img src="img/profile1.png" alt="profile" class="profile">
+            </div>
+        </div>
+    </nav>
+    <div class="profPart">
+        
+        <div class="profSect">
+            <input type="text" placeholder="        Search" id="searchAd">
+            <div class="profItem">
+                <h1>Stock1</h1>
+                <input type="checkbox" name="stock1" id="stock1" class="in">
+            </div>
+            <div class="smoLine"></div>
+            <div class="profItem">
+                <h1>Stock2</h1>
+                <input type="checkbox" name="stock2" id="stock2" class="in">
+            </div>
+            <div class="smoLine"></div>
+            <div class="profItem">
+                <h1>Stock3</h1>
+                <input type="checkbox" name="stock3" id="stock3" class="in">
+            </div>
+            <div class="smoLine"></div>
+        </div>
+        <div class="stats">
+            <img src="img/stat1.png" alt="stat" class="stat">
+        </div>
+        <div class="btns">
+            <button type="button" class="btn"><h2>Share with my Financial Advisor</h2></button>
+            <button type="button" class="btn"><h1>Download Summary</h1></button>
+        </div>
+            
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <img src="img/logo.png" alt="Logo" class="popup-logo">
+                <span class="close">&times;</span>
+                <input type="text" placeholder="Username" class="popup-input">
+                <input type="password" placeholder="Password" class="popup-input">
+                <button class="popup-button login">Login</button>
+                <div class="or">Or</div>
+                <button class="popup-button singpass">Log in with Singpass</button>
+                <div class="signup">
+                    No account? <a href="#">Signup!</a>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

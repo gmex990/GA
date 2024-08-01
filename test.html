@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Popup</title>
+    <style>
+        body {
+    background-color: #cbd5e1;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.popup-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: relative;
+}
+
+.popup-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.popup-input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.popup-button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #38bdf8;
+    color: white;
+}
+
+.singpass {
+    background-color: #ef4444;
+    color: white;
+}
+
+.or {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.signup {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.signup a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="popup-container" id="popup">
+        <div class="popup-content">
+            <img src="img/logo.png" alt="Logo" class="popup-logo">
+            <input type="text" placeholder="Username" class="popup-input">
+            <input type="password" placeholder="Password" class="popup-input">
+            <button class="popup-button login">Login</button>
+            <div class="or">Or</div>
+            <button class="popup-button singpass">Log in with Singpass</button>
+            <div class="signup">
+                No account? <a href="#">Signup!</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
