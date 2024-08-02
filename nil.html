@@ -22,7 +22,6 @@
             <div id="profile">
                 <div class="clust">
                     <button type="button" class="lg" id="loginBtn"><p>Login</p></button>
-
                     <a href="member.html"><p class="mem">No Member</p></a>
                 </div>
                 
@@ -32,42 +31,33 @@
     </nav>
     <div class="part">
         
-        <div class="minNav">
-            <div class="down">
-                <a href="index.html" class="opt"><h1>Insurance</h1></a>
-                <a href="index2.html" class="opt"><h1>Stock</h1></a>
-                <h1 id="selected">Financial advisors</h1>
-            </div>
-            
-        </div>
         <div class="main">
-            <div class="mainNav">
-                <div class="left">
-                    <input type="text" placeholder="        Search" id="search">
-                    <input type="text" placeholder="        Filter" id="filter">
-                </div>
+            <div class="center">
+                <H1>Login to get started!</H1>
             </div>
             
-            <div class="finAd">
-                <img src="img/profile1.png" alt="profile" class="miniProf">
-                <h1>Financial Advisor1</h1>
-                <h1>Rating: 5</h1>
-            </div>
-            <div class="finAd">
-                <img src="img/profile1.png" alt="profile" class="miniProf">
-                <h1>Financial Advisor2</h1>
-                <h1>Rating: 4.7</h1>
-            </div>
-            <div class="finAd">
-                <img src="img/profile1.png" alt="profile" class="miniProf">
-                <h1>Financial Advisor3</h1>
-                <h1>Rating: 4.5</h1>
-            </div>
-        
         </div>
     </div>
     <div id="myModal" class="modal">
-
+        
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <img src="img/logo.png" alt="Logo" class="popup-logo">
+                <span class="close">&times;</span>
+                <input type="text" placeholder="Username" class="popup-input">
+                <input type="password" placeholder="Password" class="popup-input">
+                <a href="index-login.html"><button class="popup-button login">Login</button></a>
+                <div class="or">Or</div>
+                <a href="index-login.html"><button class="popup-button singpass">Log in with Singpass</button></a>
+                <div class="signup">
+                    No account? <a href="signup.html">Signup!</a>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <div id="signup" class="modal">
+        
         <div class="popup-container" id="popup">
             <div class="popup-content">
                 <img src="img/logo.png" alt="Logo" class="popup-logo">

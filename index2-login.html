@@ -28,41 +28,44 @@
                 <img src="img/glasscatfish.jpg" alt="profile" class="profile">
         </div>
     </nav>
-    <div class="profPart">
+    <div class="part">
         
-        <div class="profSect">
-            <div class="profHead">
-                <input type="text" placeholder="        Search" id="searchAd">
-                <button type="button" onclick="disImg()" class="btn" id="getGraph"><h2>View graph</h2></button>
+        <div class="minNav">
+            <div class="down">
+                <a href="index-login.html" class="opt"><h1>Insurance</h1></a>
+                <h1 id="selected">Stock</h1>
+                <a href="index3-login.html" class="opt"><h1>Financial advisors</h1></a>
             </div>
             
-            <div class="profItem">
+        </div>
+        <div class="main">
+            <div class="mainNav">
+                <div class="left">
+                    <input type="text" placeholder="        Search" id="search">
+                    <input type="text" placeholder="        Filter" id="filter">
+                </div>
+            </div>
+            
+            <div class="stock">
+                <div class="col-1"></div>
                 <h1>Stock1</h1>
-                <input type="checkbox" name="stock1" id="stock1" value="y" class="in">
+                <h1>$2233</h1>
+                <h2 class="rise">$15</h2>
+                <h2 class="rise">+0.7%</h2>
             </div>
-            <div class="smoLine"></div>
-            <div class="profItem">
+            <div class="stock">
+                <div class="col"></div>
                 <h1>Stock2</h1>
-                <input type="checkbox" name="stock2" id="stock2" value="y" class="in">
+                <h1>$34343</h1>
+                <h2 class="drop">$5</h2>
+                <h2 class="drop">-0.7%</h2>
             </div>
-            <div class="smoLine"></div>
-            <div class="profItem">
-                <h1>Stock3</h1>
-                <input type="checkbox" name="stock3" id="stock3" value="y" class="in">
-            </div>
-            <div class="smoLine"></div>
-            
         </div>
-        <div class="stats">
-            <img src="img/stat1.png" alt="stat" class="stat" id="stat">
-        </div>
-        <div class="btns">
-            <button type="button" class="btn"><h1>Download Summary</h1></button>
-        </div>
-            
     </div>
     <div id="myModal" class="modal">
 
+        <!-- Modal content -->
+        
         <div class="popup-container" id="popup">
             <div class="popup-content">
                 <img src="img/logo.png" alt="Logo" class="popup-logo">

@@ -13,7 +13,7 @@
             <h1>Overseer</h1>
             <h5>Finance</h5>
             <div class="parted">
-                <a href="index.html"><h2 class="lin">Home<img src="img/home.png"></h2></a>
+                <a href="index-login.html"><h2 class="lin">Home<img src="img/home.png"></h2></a>
                 <div class="verti"></div>
                 <a href="profile.html"><h2 class="lin">Profile<img src="img/profile.png"></h2></a>
                 <div class="verti"></div>
@@ -21,11 +21,11 @@
             </div>
             <div id="profile">
                 <div class="clust">
-                    <a href="login.html" class="lg"><p>Login</p></a>
-                    <a href="member.html"><p class="mem">No Member</p></a>
+                    <button type="button" class="lg" id="loginBtn"><p>Glass catfish</p></button>
+                    <a href="member-login.html"><p class="mem">No Member</p></a>
                 </div>
                 
-                <img src="img/profile1.png" alt="profile" class="profile">
+                <img src="img/glasscatfish.jpg" alt="profile" class="profile">
             </div>
         </div>
     </nav>
@@ -34,8 +34,8 @@
         <div class="minNav">
             <div class="down">
                 <h1 id="selected">Insurance</h1>
-                <a href="index2.html" class="opt"><h1>Stock</h1></a>
-                <a href="index3.html" class="opt"><h1>Financial advisors</h1></a>
+                <a href="index2-login.html" class="opt"><h1>Stock</h1></a>
+                <a href="index3-login.html" class="opt"><h1>Financial advisors</h1></a>
             </div>
             
         </div>
@@ -90,5 +90,19 @@
             </div>
         </div>
     </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <img src="img/logo.png" alt="Logo" class="popup-logo">
+                <span class="close">&times;</span>
+                <a href="index.html"><button class="popup-button singpass">Logout</button></a>
+            </div>
+        </div>
+      
+    </div>
+    <script src="js.js"></script>
 </body>
 </html>

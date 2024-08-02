@@ -21,29 +21,26 @@
             </div>
             <div id="profile">
                 <div class="clust">
-                    <button type="button" class="lg" id="loginBtn"><p>Login</p></button>
-                    <a href="member.html"><p class="mem">No Member</p></a>
+                    <button type="button" class="lg" id="loginBtn"><p>Glass Catfish</p></button>
+                    <a href="member-login.html"><p class="mem">No Member</p></a>
                 </div>
                 
-                <img src="img/profile1.png" alt="profile" class="profile">
+                <img src="img/glasscatfish.jpg" alt="profile" class="profile">
             </div>
         </div>
     </nav>
     <div class="membership-plans">
-        <a href="nil.html" class="navCard">
             <div class="plan no-member">
-                <div class="plan-title">No Member</div>
-                <div class="line"></div>
-                <div class="plan-details">
-                    <p>View Profile</p>
-                    <p>Purchase Products</p>
-                    <p>View Profile Summary</p>
-                </div>
-                <div class="plan-price">Free</div>
+            <div class="plan-title">No Member</div>
+            <div class="line"></div>
+            <div class="plan-details">
+                <p>View Profile</p>
+                <p>Purchase Products</p>
+                <p>View Profile Summary</p>
             </div>
-        </a>
-        <a href="nil.html" class="navCard">
-            <div class="plan diamond-member">
+            <div class="plan-price">Free</div>
+        </div>
+            <div class="plan diamond-member payment">
                 <div class="plan-title">Diamond Member</div>
                 <div class="line"></div>
                 <div class="plan-details">
@@ -55,9 +52,7 @@
                 </div>
                 <div class="plan-price">$25/month</div>
             </div>
-        </a>
-        <a href="nil.html" class="navCard">
-            <div class="plan gold-member">
+            <div class="plan gold-member" id="payment1">
                 <div class="plan-title">Gold Member</div>
                 <div class="line"></div>
                 <div class="plan-details">
@@ -68,7 +63,6 @@
                 </div>
                 <div class="plan-price">$10/month</div>
             </div>
-        </a>
         
     </div>
     <div id="myModal" class="modal">
@@ -89,7 +83,17 @@
         </div>
       
     </div>
-    
+    <div class="payment modal1" id="m1">
+
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <img src="img/logo.png" alt="Logo" class="popup-logo">
+                <span class="close">&times;</span>
+                <a href="index.html"><button class="popup-button singpass">Logout</button></a>
+            </div>
+        </div>
+      
+    </div>
     <script src="js.js"></script>
 </body>
 </html>
