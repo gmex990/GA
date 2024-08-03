@@ -13,15 +13,20 @@ function changeTitle(){
   title.style.color = "gold";
 }
 
-
+function showS(){
+  document.getElementById("sucS").innerHTML = "Successfully Uploaded";
+}
 
 
 btn.onclick = function() {
   modal.style.display = "block";
 };
-close.onclick = function() {
-  modal.style.display = "none";
-};
+
+if (close != null){
+  close.onclick = function() {
+    modal.style.display = "none";
+  };
+}
 
 if(payment1 != null){
   payment1.onclick = function() {

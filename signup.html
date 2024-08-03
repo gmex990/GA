@@ -31,13 +31,51 @@
     </nav>
     <div class="part">
         <div class="main-signup">
-            <input type="text" placeholder="Username" id="username">
+            <div class="split">
+                <input type="text" placeholder="Username" id="username">
             <input type="text" placeholder="Email" id="email">
-            <br>
-            <input type="password" placeholder="Password" id="password">
-            <input type="password" placeholder="Confirm Password" id="confirmPassword">
+            </div>
+            
+            <div class="split">
+                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Confirm Password" id="confirmPassword">
+            </div>
+            <div class="split">
+                <button type="button" onclick="showS()">Upload Document</button>
+                <h2>OR</h2>
+                <button type="button" onclick="showS()" class="singpass">Retreive Info Using Singpass MyInfo</button>
+            </div>
+            <div class="split">
+                <h3>By using our service, you agree to our <a href="#">Terms & Condition</a></h3>
+                <input type="checkbox" id="agree">
+            </div>
+            <div class="split">
+                <h1 id="sucS"></h1>
+            </div>
+            
+            
             <a href="index.html"><button type="button" id="signupBtn">Sign Up</button></a>
+            
         </div>
     </div>
+    <div id="myModal" class="modal">
+        
+        <div class="popup-container" id="popup">
+            <div class="popup-content">
+                <img src="img/logo.png" alt="Logo" class="popup-logo">
+                <span class="close">&times;</span>
+                <input type="text" placeholder="Username" class="popup-input">
+                <input type="password" placeholder="Password" class="popup-input">
+                <a href="index-login.html"><button class="popup-button login">Login</button></a>
+                <div class="or">Or</div>
+                <a href="index-login.html"><button class="popup-button singpass">Log in with Singpass</button></a>
+                <div class="signup">
+                    No account? <a href="signup.html">Signup!</a>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <script src="js.js"></script>
 </body>
 </html>
